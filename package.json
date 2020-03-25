@@ -1,0 +1,39 @@
+{
+  "name": "jshint-stylishexitonerror",
+  "repository": "Clonk-HTML5/jshint-stylishexitonerror",
+  "description": "Stylish reporter for JSHint Exit on Error",
+  "license": "MIT",
+  "version": "1.0.0",
+  "author": {
+    "name": "Christian Roessler",
+    "email": "christian.schmitt.work@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "jshint",
+    "reporter",
+    "formatter",
+    "format",
+    "lint",
+    "validate",
+    "stylish",
+    "elegant",
+    "pretty"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "log-symbols": "^1.0.0",
+    "plur": "^2.1.0",
+    "string-length": "^1.0.0",
+    "text-table": "^0.2.0",
+    "beeper": "^1.1.0"
+  },
+  "devDependencies": {
+    "jshint": "^2"
+  }
+}
