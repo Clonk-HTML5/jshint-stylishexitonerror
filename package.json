@@ -1,13 +1,13 @@
 {
   "name": "jshint-stylishexitonerror",
-  "repository": "Clonk-HTML5/jshint-stylishexitonerror",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clonk-HTML5/jshint-stylishexitonerror.git"
+  },
   "description": "Stylish reporter for JSHint Exit on Error",
   "license": "MIT",
   "version": "1.0.0",
-  "author": {
-    "name": "Christian Roessler",
-    "email": "christian.schmitt.work@gmail.com"
-  },
+  "author": "Christian Roessler <christian.schmitt.work@gmail.com>",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -35,5 +35,13 @@
   },
   "devDependencies": {
     "jshint": "^2"
+  },
+  "bugs": {
+    "url": "https://github.com/Clonk-HTML5/jshint-stylishexitonerror/issues"
+  },
+  "homepage": "https://github.com/Clonk-HTML5/jshint-stylishexitonerror#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
